@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A template for classifying chicken diseases from images.
+Home-page: https://github.com/Ketki/Implementation-of-Chicken-Disease-Classification
+Author: Ketki
+Author-email: ketki.dandgavale@gmail.com
+Project-URL: Bug Tracker, https://github.com/Ketki/Implementation-of-Chicken-Disease-Classification/issues
+
+"Chicken Disease Classification"
