@@ -2,9 +2,21 @@ from cnnClassifier import logger
 from cnnClassifier.utils.common import get_size
 import os
 import urllib.request as request
+# from cnnClassifier.entity.config_entity import DataIngestionConfig....... __init__.py from entity folder is deleted
 from cnnClassifier.entity.config_entity import DataIngestionConfig
-from pathlib import Path
 
+from pathlib import Path
+# from dataclasses import dataclass
+# from pathlib import Path
+
+
+
+# @dataclass(frozen=True)
+# class DataIngestionConfig:
+#     root_dir: Path
+#     source_URL: str
+#     local_data_file: Path
+#     unzip_dir: Path
 
 
 

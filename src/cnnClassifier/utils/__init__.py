@@ -1,8 +1,8 @@
+
+import logging
 import os
 import sys
-import logging
 
-# Corrected logging format string
 logging_str = "[%(asctime)s: %(levelname)s: %(name)s: %(message)s]"
 
 log_dir = "logs"

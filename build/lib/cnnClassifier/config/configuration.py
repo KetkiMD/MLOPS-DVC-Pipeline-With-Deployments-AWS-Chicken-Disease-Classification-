@@ -6,7 +6,7 @@ from cnnClassifier.utils.common import get_size
 import os
 import urllib.request as request
 
-from cnnClassifier.entity.config_entity import DataIngestionConfig
+from cnnClassifier.entity import DataIngestionConfig
 
 
 class ConfigurationManager:

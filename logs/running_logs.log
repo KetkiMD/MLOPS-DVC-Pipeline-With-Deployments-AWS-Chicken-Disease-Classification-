@@ -120,3 +120,59 @@ connection: close
 [2024-07-15 16:38:13,560: INFO: cnnClassifierLogger: created directory at: artifacts/data_ingestion]
 [2024-07-15 16:38:13,562: INFO: cnnClassifierLogger: File already exists of size: ~ 286.74 KB]
 [2024-07-15 16:38:13,564: ERROR: cnnClassifierLogger: File is not a zip file or is corrupted.]
+[2024-07-15 22:49:14,319: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage started <<<<<<<<<<]
+[2024-07-15 22:49:14,360: ERROR: cnnClassifierLogger: name 'ConfigurationManager' is not defined]
+Traceback (most recent call last):
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\1_stage_data_ingestion.py", line 45, in <module>
+    obj.main()
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\1_stage_data_ingestion.py", line 32, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConfigurationManager' is not defined
+[2024-07-15 22:50:16,362: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage started <<<<<<<<<<]
+[2024-07-15 22:50:16,362: ERROR: cnnClassifierLogger: name 'ConfigurationManager' is not defined]
+Traceback (most recent call last):
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\1_stage_data_ingestion.py", line 45, in <module>
+    obj.main()
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\1_stage_data_ingestion.py", line 32, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConfigurationManager' is not defined
+[2024-07-15 22:58:28,152: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage started <<<<<<<<<<]
+[2024-07-15 22:58:28,189: ERROR: cnnClassifierLogger: name 'ConfigurationManager' is not defined]
+Traceback (most recent call last):
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\1_stage_data_ingestion.py", line 45, in <module>
+    obj.main()
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\1_stage_data_ingestion.py", line 32, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConfigurationManager' is not defined
+[2024-07-15 22:59:52,507: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage started <<<<<<<<<<]
+[2024-07-15 22:59:52,507: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-15 22:59:52,515: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-15 22:59:52,515: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-15 22:59:52,515: INFO: cnnClassifierLogger: created directory at: artifacts/data_ingestion]
+[2024-07-15 22:59:52,515: INFO: cnnClassifierLogger: Manually ensure the zip file is extracted to the correct location.]
+[2024-07-15 22:59:52,515: INFO: cnnClassifierLogger: Configured unzip directory: artifacts/data_ingestion]
+[2024-07-15 22:59:52,515: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<]
+[2024-07-18 16:39:21,435: INFO: cnnClassifierLogger: This is a test log message.]
+[2024-07-18 16:39:29,462: INFO: cnnClassifierLogger: This is a test log message.]
+[2024-07-24 12:09:15,592: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage started <<<<<<<<<<]
+[2024-07-24 12:09:15,621: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-24 12:09:15,627: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-24 12:09:15,627: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-24 12:09:15,627: INFO: cnnClassifierLogger: created directory at: artifacts/data_ingestion]
+[2024-07-24 12:09:15,636: INFO: cnnClassifierLogger: Manually ensure the zip file is extracted to the correct location.]
+[2024-07-24 12:09:15,637: INFO: cnnClassifierLogger: Configured unzip directory: artifacts/data_ingestion]
+[2024-07-24 12:09:15,637: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<]
+[2024-07-24 12:12:37,456: INFO: cnnClassifierLogger: This is a test log message.]
+[2024-07-24 12:17:32,840: INFO: cnnClassifierLogger: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-24 12:17:32,845: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-24 12:17:32,845: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-24 12:17:32,845: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-24 12:17:32,845: INFO: cnnClassifierLogger: created directory at: artifacts/data_ingestion]
+[2024-07-24 12:17:32,845: INFO: cnnClassifierLogger: Manually ensure the zip file is extracted to the correct location.]
+[2024-07-24 12:17:32,850: INFO: cnnClassifierLogger: Configured unzip directory: artifacts/data_ingestion]
+[2024-07-24 12:17:32,850: INFO: cnnClassifierLogger: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
