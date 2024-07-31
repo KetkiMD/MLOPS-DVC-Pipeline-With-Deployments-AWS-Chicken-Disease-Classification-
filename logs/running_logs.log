@@ -176,3 +176,80 @@ NameError: name 'ConfigurationManager' is not defined
 [2024-07-24 12:17:32,850: INFO: cnnClassifierLogger: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-07-27 20:04:38,949: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-27 20:04:38,966: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-27 20:04:38,968: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-27 20:04:38,970: INFO: cnnClassifierLogger: created directory at: artifacts/prepare_base_model]
+[2024-07-27 20:04:57,005: WARNING: absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-27 20:04:57,206: WARNING: absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-27 23:04:41,516: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-27 23:04:41,526: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-27 23:04:41,526: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-27 23:04:41,531: INFO: cnnClassifierLogger: created directory at: artifacts/prepare_base_model]
+[2024-07-27 23:04:42,145: WARNING: absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-27 23:04:42,425: WARNING: absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-28 01:02:52,488: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-28 01:02:52,490: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-28 01:02:52,529: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-28 01:02:52,533: INFO: cnnClassifierLogger: created directory at: artifacts/prepare_base_model]
+[2024-07-28 01:02:53,092: WARNING: absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-28 01:02:53,291: WARNING: absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-28 01:10:26,751: INFO: cnnClassifierLogger: *******************]
+[2024-07-28 01:10:26,751: INFO: cnnClassifierLogger: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-28 01:10:26,753: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-28 01:10:26,753: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-28 01:10:26,753: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-28 01:10:26,753: INFO: cnnClassifierLogger: created directory at: artifacts/prepare_base_model]
+[2024-07-28 01:10:27,221: WARNING: absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-28 01:10:27,428: WARNING: absl: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-28 01:10:27,579: INFO: cnnClassifierLogger: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-28 01:11:35,398: INFO: cnnClassifierLogger: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-28 01:11:35,399: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-28 01:11:35,399: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-28 01:11:35,399: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-28 01:11:35,407: ERROR: cnnClassifierLogger: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\tp.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\stage_1_data_ingestion.py", line 22, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-07-28 01:14:58,257: INFO: cnnClassifierLogger: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-07-28 01:14:58,269: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-28 01:14:58,269: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-28 01:14:58,269: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-28 01:14:58,269: ERROR: cnnClassifierLogger: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\tp.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\stage_1_data_ingestion.py", line 22, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-07-28 01:15:18,228: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage started <<<<<<<<<<]
+[2024-07-28 01:15:18,230: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-28 01:15:18,233: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-28 01:15:18,233: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-28 01:15:18,233: ERROR: cnnClassifierLogger: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\stage_1_data_ingestion.py", line 33, in <module>
+    obj.main()
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\stage_1_data_ingestion.py", line 22, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2024-07-28 01:16:02,107: INFO: cnnClassifierLogger: >>>>>>>> stage Data Ingestion stage started <<<<<<<<<<]
+[2024-07-28 01:16:02,109: INFO: cnnClassifierLogger: yaml file:config\config.yaml loaded successfully]
+[2024-07-28 01:16:02,109: INFO: cnnClassifierLogger: yaml file:params.yaml loaded successfully]
+[2024-07-28 01:16:02,109: INFO: cnnClassifierLogger: created directory at: artifact]
+[2024-07-28 01:16:02,109: ERROR: cnnClassifierLogger: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\stage_1_data_ingestion.py", line 33, in <module>
+    obj.main()
+  File "c:\Users\Dell\Desktop\MLOPS-DVC-Pipeline-With-Deployments-AWS-Chicken-Disease-Classification-\src\cnnClassifier\pipeline\stage_1_data_ingestion.py", line 22, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'

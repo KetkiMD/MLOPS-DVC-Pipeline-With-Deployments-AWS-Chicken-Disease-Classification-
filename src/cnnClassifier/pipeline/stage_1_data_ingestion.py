@@ -8,7 +8,7 @@ from pathlib import Path
 from dataclasses import dataclass
 from cnnClassifier.config.configuration import ConfigurationManager
 from cnnClassifier.components.data_ingestion import DataIngestion
-from cnnClassifier.entity.config_entity import DataIngestionConfig
+from cnnClassifier.entity.config_entity import (DataIngestionConfig, PrepareBaseModelConfig)
 
 
 STAGE_NAME = "Data Ingestion stage"
